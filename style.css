@@ -1,0 +1,228 @@
+body{
+
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+nav{
+
+    margin-left: 2em;
+    padding: 2em;
+}
+
+
+
+ul{
+
+    margin-left: 3em;
+}
+
+
+li{
+    
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#btn{
+    margin-left: 45em;
+}
+
+
+#btn-2{
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+.main-content{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+
+    
+
+    
+}
+
+
+.first-section{
+    
+    text-align: center;
+    margin-top: 5em;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto
+
+    
+}
+
+.text-area{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    
+}
+
+
+.text-area h1{
+
+    font-size: 4.6em;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+    
+    
+    
+}
+
+
+
+
+.text-area p{
+
+    text-align: left;
+    margin-bottom: 20px;
+
+    
+
+    
+}
+
+
+.text-area button {
+
+  
+   padding: 10px;
+   font-size: 1em;
+   border-radius: 10px;
+   width: 8em;
+   margin-top: 1em;
+   margin-bottom: 3em;
+}
+
+
+.aside{
+
+    text-align: left;
+}
+
+
+
+.brand{
+
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1040px) {
+
+   
+    
+    
+
+
+    .main-content{
+
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    }
+
+    #pic{
+
+        
+                
+        margin-left: 4em;
+        max-width: max-content;
+        height: 22em;
+        
+    }
+
+
+    .text-area h1{
+
+        position:relative;
+        bottom: 3em;
+
+        font-size: 3em;
+        text-align: center;
+        left: 1em;
+        top: -2em;
+        
+
+        
+
+
+ 
+    }
+
+
+    .text-area p{
+
+        position: relative; 
+        padding: 0;
+        text-align: center;
+        left: 5em;
+        top: -7em;
+        font-size: 0.95em;
+        font-weight: bolder;
+
+    }
+
+    .text-area button{
+
+        position: relative;
+        top: -11em;
+        font-size: 0.75em;
+        text-align: center;
+        left: 15em;
+    }
+
+
+    .text-area h1 br{
+        display: none;
+    }
+
+
+    .brand{
+
+       margin-top: -18em;
+       padding: 10px;
+        
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
